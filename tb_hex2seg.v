@@ -20,17 +20,17 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module tb_hex2seg(
-
-    );
+module tb_hex2seg();
     
+    // declare registers and wires
     reg [3:0] D;
-    
     wire [6:0] segs;
     wire [3:0] anodes;
     
+    // instantiate hex2seg
     hex2seg U1(D,segs,anodes);
     
+    // test inputs
     initial begin
         D = 4'b0000;
         #100;
@@ -63,7 +63,6 @@ module tb_hex2seg(
         D = 4'b1110;
         #100;
         D = 4'b1111;
-        
-        end
+    end
         
 endmodule
