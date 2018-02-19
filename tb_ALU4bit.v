@@ -30,6 +30,7 @@ module tb_ALU4bit( );
     wire [6:0] segs7;
     wire [3:0] anodes;
     
+    // instantiate ALU4bit
     ALU4bit U1(A,B,op,Result,negSign,segs7,anodes);
     
     initial begin
