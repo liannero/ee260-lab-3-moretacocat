@@ -55,5 +55,5 @@ reg [3:0] A;
         #100;
         A = 4'b1111;
         B = 4'b0111;            
-end
+    end
 endmodule
