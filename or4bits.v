@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Lianne Rozzelle, Kristel Zuniga
 // 
 // Create Date: 02/13/2018 01:38:45 PM
 // Design Name: 
