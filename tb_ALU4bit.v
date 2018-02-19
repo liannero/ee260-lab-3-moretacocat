@@ -22,6 +22,7 @@
 
 module tb_ALU4bit( );
 
+    // declare registers and wires
     reg [3:0] A;
     reg [3:0] B;
     reg [1:0] op;
@@ -33,6 +34,7 @@ module tb_ALU4bit( );
     // instantiate ALU4bit
     ALU4bit U1(A,B,op,Result,negSign,segs7,anodes);
     
+    // test inputs
     initial begin
         A = 4'b0000;
         B = 4'b0000;
