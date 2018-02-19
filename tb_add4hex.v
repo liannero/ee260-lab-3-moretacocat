@@ -22,15 +22,17 @@
 
 module tb_add4hex();
 
+    // declare registers and wires
     reg [3:0] A;
     reg [3:0] B;
     wire [3:0] Sum;
     wire [6:0] segs7;
     wire [3:0] anodes;
  
-    
+    // instantiate add4hex
     add4hex U1(A,B,Sum,segs7,anodes);
     
+    // test inputs
     initial begin
         A = 4'b0000;
         B = 4'b0000;
